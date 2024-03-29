@@ -1,0 +1,25 @@
+package personnages;
+
+public class Humain {
+	private String nom;
+	private String boisson;
+	private int argent;
+
+	
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public int getArgent() {
+		return argent;
+	}
+	public void setArgent(int argent) {
+		this.argent = argent;
+	}
+	
+	public void direBonjour() {
+		System.out.println("Bonjour ! je m'appelle " + getNom() +" et j'aime boire du " + boisson );
+	}
+}

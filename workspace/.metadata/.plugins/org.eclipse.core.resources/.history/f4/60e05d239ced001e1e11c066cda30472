@@ -1,0 +1,30 @@
+package personnages;
+
+public class Humain {
+	private String nom;
+	private String boisson;
+	private int argent;
+
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	public int getArgent() {
+		return argent;
+	}
+	
+	public String getBoisson() {
+		return boisson;
+	}
+	
+	
+	public void direBonjour() {
+		System.out.println("Bonjour ! je m'appelle " + getNom() +" et j'aime boire du " + getBoisson() );
+	}
+	
+	
+	public void Boire() {
+		System.out.println("Mmm, un bon verre de + " getBoisson() +" ! GLOUPS");
+	}
+}
